@@ -8,13 +8,15 @@
 body {
   margin: 0;
 }
-.box-one {
-  /* background-color: var(--dark); */
+
+/* First Section */
+
+.firstWrapper {
   background-color: var(--dark);
-  border: 1px solid;
 }
 
 .content {
+  padding-top: 20px;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -24,6 +26,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .header-logo {
   color: var(--light);
   font-size: 24px;
@@ -40,6 +43,29 @@ body {
   font-size: 18px;
 }
 
+.header-content {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-top: 100px;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 10px;
+  flex: 1;
+  border: 2px solid green;
+
+}
+
+.container-right {
+  flex: 1;
+  border: 2px solid orange;
+
+}
 .header-main {
   color: var(--light);
   font-size: 48px;
