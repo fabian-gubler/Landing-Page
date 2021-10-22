@@ -12,39 +12,25 @@
 }
 
 .title-alt {
+  text-align: center;
   color: var(--nord4);
   font-size: 36px;
   font-weight: 800;
 }
 
-.box-alt {
-  /* align-items: flex-end; */
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 20%;
-  border-radius: 8px;
-}
-
-.box-alt p {
-  color: var(--nord4);
-}
-
 .quote {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   margin-bottom: 24px;
 }
+
 .quote-text {
   color: var(--nord4);
-  font-size: 36px;
+  font-size: 32px;
   font-style: italic;
   font-weight: 200;
 }
 
-.quote-url {
-  align-self: flex-end;
+.white {
   color: var(--nord4);
-  font-size: 24px;
-  font-weight: 600;
 }
