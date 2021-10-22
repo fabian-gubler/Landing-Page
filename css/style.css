@@ -1,0 +1,10 @@
+:root {
+  --dark: #1F2937;
+  --light: #F9FAF8;
+  --light2: #E5E7E5;
+  --rose: #E5E7EB;
+}
+
+body {
+  margin: 0;
+}
