@@ -52,7 +52,10 @@
 
 }
 
-.submit-button {
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 30px;
   width: 100px;
   border: none;
@@ -60,7 +63,10 @@
   background-color: var(--nord10) ;
   color: var(--nord4);
   font-weight: 600;
+  text-decoration: none;
+  padding-top: 2px;
 }
+
 
 .container-right img {
   width: 100%;
