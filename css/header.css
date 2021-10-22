@@ -1,7 +1,7 @@
 /* HEADER */
 
 #header {
-  background-color: var(--dark);
+  background-color: var(--nord0);
 }
 
 .content {
@@ -17,7 +17,7 @@
 }
 
 .header-logo {
-  color: var(--light);
+  color: var(--nord4);
   font-size: 24px;
   font-weight: 600;
 }
@@ -28,7 +28,7 @@
 }
 
 .header-secondary {
-  color: var(--light2);
+  color: var(--nord5);
   font-size: 18px;
 }
 
@@ -62,8 +62,8 @@
   width: 100px;
   border: none;
   border-radius: 8px;
-  background-color: #3882F6 ;
-  color: var(--light);
+  background-color: var(--nord10) ;
+  color: var(--nord4);
   font-weight: 600;
 }
 
@@ -73,7 +73,7 @@
   border-radius: 8px;
 }
 .header-main {
-  color: var(--light);
+  color: var(--nord4);
   font-size: 48px;
   font-weight: 800;
 }
